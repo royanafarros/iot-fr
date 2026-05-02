@@ -121,7 +121,7 @@
         <h2>Welcome Back</h2>
         <p>Akses panel monitoring IoT Anda sekarang</p>
 
-        <form method="POST" action="{{ route('auto.login') }}">
+        <form method="POST" action="{{ route('login') }}">
             @csrf
             <button type="submit" class="btn-login">
                 Masuk ke Dashboard 🚀
