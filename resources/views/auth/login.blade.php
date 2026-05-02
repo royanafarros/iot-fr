@@ -118,13 +118,13 @@
 
     <div class="card">
         <div class="icon-box">🔐</div>
-        <h2>Welcome Back</h2>
-        <p>Akses panel monitoring IoT Anda sekarang</p>
+        <h2>Welcome</h2>
+        <p>monitoring IoT</p>
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
             <button type="submit" class="btn-login">
-                Masuk ke Dashboard 🚀
+                Masuk ke Dashboard 
             </button>
         </form>
 
