@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 
 Route::get('/', function () {
-    return redirect('/login');
+    return redirect('/auto-login');
 });
 
 // dashboard pakai controller
